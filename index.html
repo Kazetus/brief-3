@@ -4,11 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <div>
+            <img src="img/logo.png" alt="logo dsi méditerranée">
+        </div>
+        <nav>
+            <label for="burger" class="disabled burger"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="burger" class="disabled">
+            <ul class="navbar">
+                <li><a href="index.html">Nos formations</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/vos-avantages.html">Nous recrutons</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/nos-metiers/projets-numeriques/informatique.html">Nos métiers</a></li>
+                <li><a href="https://ecandidature.dsi-ap.com/">Vos avantages</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/nous-connaitre/plus-de-20-ans-d-histoire.html">Nous connaitre</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/actualites.html">Actualités</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/contactez-nous.html">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="intro">
+        <h1><span class="orange">CDA</span> sophia 2023</h1>
+        <p>Notre organisation peut aider les employeurs et les employés à naviguer sur les questions liées au handicap au travail et à trouver des solutions pour créer un environnement de travail plus inclusif.</p>
+        <img src="img/Capture.PNG" alt="photo réunion">
+    </section>
+    <section class="sensimenu">
+        <h2 class="sensimenu-1">Découvrez nos formations</h2>
+        <div class="sensimenu-2">Qu'est-ce qu'une entreprise adaptée</div>
+        <div class="sensimenu-3">Le rôle du référent handicap</div>
+        <div class="sensimenu-4">Méthode d'intégration</div>
+        <div class="sensimenu-5">particularité du recrutement</div>
+        <div class="sensimenu-6">Le maintien dans l'emploi</div>
+        <div class="sensimenu-7">Le handicap au travail</div>
+        <div class="sensimenu-8">Le handicap</div>
+        <div class="sensimenu-9">L'OETH</div>
+    </section>
+    <div class="diagramme">
+        <img class="img-mobile" src="img/diagramme_mobile.png" alt="diagramme entreprise mobile">
+        <img class="img-desktop" src="img/diagramme.png" alt="diagramme entreprise">
+    </div>
+    <footer>
+        <div>
+            <h2>Contactez nous</h2>
+            <address>
+                <p>80 Route des Lucioles</p>
+                <p>Les Espaces de Sophia</p>
+                <p>Batiment K</p>
+                <p>06560 Valbonne</p>
+                <p><a href="tel:+33562741000">Tel: 05 62 74 10 00</a></p>
+                <p><a href="mailto:accueil@dsi-ap.com">accueil@dsi-ap.com</a></p>
+            </address>
+        </div>
+        <form action="index.html" method="POST">
+            <label for="name">Nom prénom</label>
+            <input type="text" id="name" placeholder="Nom Prénom">
+            <label for="entreprise">Entreprise</label>
+            <input type="text" id="entreprise" placeholder="Entreprise">
+            <label for="mail">Email</label>
+            <input type="email" id="mail" placeholder="Email">
+            <label for="envoyer">Envoyer</label>
+            <input type="submit" id="envoyer">
+        </form>
+        <div class="social">
+            <a class="icone" href="https://www.facebook.com/distributionservicesindustrielsmed/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="icone" href="https://twitter.com/DsiMediterranee"><i class="fa-brands fa-twitter"></i></a>
+            <a class="icone" href="https://www.linkedin.com/company/dsi-m%C3%A9diterran%C3%A9e-entreprise-adapt%C3%A9e-et-solidaire/?originalSubdomain=fr"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
