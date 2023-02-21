@@ -315,35 +315,35 @@ form input:last-child {
     }
     .sensimenu-2{
         background-color: #FD8A69;
-        grid-column: 1/4;
+        grid-column: 1/3;
     }
     .sensimenu-3{
         background-color: #1D4B84;
-        grid-column: 4/7;
+        grid-column: 4/6;
     }
     .sensimenu-4{
         background-color: #47A18B;
-        grid-column: 7/10;
+        grid-column: 8/10;
     }
     .sensimenu-5{
         background-color: #989999;
-        grid-column: 10/13;
+        grid-column: 11/13;
     }
     .sensimenu-6{
         background-color: #1D4B84;
-        grid-column: 1/4;
+        grid-column: 1/3;
     }
     .sensimenu-7{
         background-color: #FD8A69;
-        grid-column: 4/7;
+        grid-column: 4/6;
     }
     .sensimenu-8{
         background-color: #47A18B;
-        grid-column: 7/10;
+        grid-column: 8/10;
     }
     .sensimenu-9{
         background-color: #989999;
-        grid-column: 10/13;
+        grid-column: 11/13;
     }
     .img-mobile{
         display: none;
