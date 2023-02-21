@@ -291,6 +291,10 @@ form input:last-child {
         font-size: 1.6em;
         margin:3em auto;
     }
+    .sensimenu div{
+        width: 225px;
+        height: 225px;
+    }
     .sensimenu-1{
         font-family: 'Audiowide', cursive;
         font-weight: 300;
