@@ -150,8 +150,8 @@ h1 {
     line-height: 40px;
     border-radius: 25px;
     font-weight: 500;
-    width: 225px;
-    height: 225px;
+    width: 200px;
+    height: 200px;
     box-shadow: #00000049 10px 10px 20px;
     padding: 0.5em;
     display: flex;
@@ -373,6 +373,9 @@ form input:last-child {
     }
     .fa-brands {
         margin: 0;
+        width: 60px;
+        height: 60px;
+        font-size: 2em;
     }
     form:before {
         content: "";
