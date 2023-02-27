@@ -56,6 +56,9 @@ header {
     padding: 2em;
     font-size: 2em;
 }
+.navbar li:first-child a{
+    border-bottom: 4px solid #FD8A69;
+}
 .intro {
     text-align: center;
     color: #fafafa;
