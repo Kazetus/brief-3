@@ -56,9 +56,6 @@ header {
     padding: 2em;
     font-size: 2em;
 }
-.navbar li:first-child a{
-    border-bottom: 4px solid #FD8A69;
-}
 .intro {
     text-align: center;
     color: #fafafa;
@@ -266,6 +263,9 @@ form input:last-child {
     }
     .navbar li a{
         color: #3F4244;
+    }
+    .navbar li:first-child{
+        border-bottom: 4px solid #FD8A69;
     }
     .intro .container {
         display: flex;
